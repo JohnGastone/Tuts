@@ -60,3 +60,43 @@ print(x >= y)
 
 # Less than or equal ( <=)
 print(x <= y)
+
+
+# Logical Operators
+# Three logical operators exists in Python
+# 1. and  (&)
+# 2. or (|)
+# 3. not (!)
+
+
+t = 20
+
+if t > 10 & t > 12:
+    print("Logical and is real")
+elif t > 30 | t < 2:
+    print("Logical or is real")
+elif t == 30:
+    print("Logical not is real")
+else:
+    print("Logical and is unreal")
+
+# Identity Operators
+# 1. is
+# 2. is not
+
+p = 20
+sweetFruits = ['Apple', 'Orange', 'Mango']
+sweetestFruits = ['Pineaple', 'Banana', 'Fenesi']
+print(sweetFruits is not sweetestFruits)
+
+
+# Membership Operators
+# in - shows belongingness of objects/items in a particular family of things
+# not in - Negation of in operator
+
+if 'Chungwa' not in sweetFruits:
+    print("Chungwa is a sweet fruit")
+elif 'Fenesi' not in sweetestFruits:
+    print("Chungwa is a sweetest fruit")
+else:
+    print('Chungwa is not sweet at all')
