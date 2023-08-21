@@ -21,3 +21,11 @@ switch_dict = {
 
 for case in switch_dict:
     print(case)
+    if case == 'case1':
+        pass
+    if case in switch_dict:
+        print('This is useless print statement')
+
+
+for i in range(1, 10):
+    print(i)
