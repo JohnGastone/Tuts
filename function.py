@@ -64,3 +64,23 @@ regions(' Mwanza')
 
 # Second option
 regions()
+
+
+# Passing a list as an argument
+def my_function(food):
+    for x in food:
+        print(x)
+
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
+
+
+# Return statement
+
+def rudisha(a):
+    return a*3
+
+
+print(rudisha(5))
