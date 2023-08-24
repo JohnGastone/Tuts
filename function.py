@@ -51,3 +51,16 @@ def my_function(**kid):
 
 
 my_function(fname="Tobias", lname="Mwasege")
+
+
+# Default Parameter value
+
+def regions(region=' Morogoro'):
+    print('I am from' + region)
+
+
+# First option
+regions(' Mwanza')
+
+# Second option
+regions()
