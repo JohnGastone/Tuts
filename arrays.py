@@ -14,7 +14,7 @@
 '''
 # Creating Arrays
 
-ages = [17, 24, 43, 19, 89]
+ages = [17, 24, 24, 24, 24, 43, 19, 89]
 mixed_data_types = [4, "String", True, 12 + 12j]
 print(ages)
 print(mixed_data_types)
@@ -40,3 +40,18 @@ print(ages)
 
 ages.append(100)
 print(ages)
+
+# Removing Elements from an array
+
+ages.remove(100)
+print(ages)
+
+# Sorting an array
+
+# ages.sort()
+# print(ages)
+
+# Searching an array
+
+print(ages.index(24))
+print(ages.count(24))
