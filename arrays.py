@@ -14,7 +14,7 @@
 '''
 # Creating Arrays
 
-ages = [12, 17, 24, 24, 43, 19, 89]
+ages = [12, 17, 24, 11, 24, 43, 24, 19, 24, 89]
 mixed_data_types = [4, "String", True, 12 + 12j]
 print(ages)
 print(mixed_data_types)
