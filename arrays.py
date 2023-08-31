@@ -14,7 +14,7 @@
 '''
 # Creating Arrays
 
-ages = [17, 24, 24, 24, 24, 43, 19, 89]
+ages = [12, 17, 24, 24, 43, 19, 89]
 mixed_data_types = [4, "String", True, 12 + 12j]
 print(ages)
 print(mixed_data_types)
@@ -52,6 +52,17 @@ print(ages)
 # print(ages)
 
 # Searching an array
-
+hesabu = ages.count(24)
 print(ages.index(24))
-print(ages.count(24))
+print(hesabu)
+
+'''
+
+In Python, the count() method is used to count 
+the number of occurrences of a specified element in
+ a list (which can be considered as an array). Here's how the count() method works:
+'''
+
+numbers = [1, 2, 3, 2, 4, 2, 5, 2]
+count_of_twos = numbers.count(2)
+print(count_of_twos)  # Output: 4
