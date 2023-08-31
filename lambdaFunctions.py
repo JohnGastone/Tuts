@@ -87,3 +87,5 @@ def myfunc(n):
 
 myfunc(2)
 print(myfunc(33))
+
+# TODO Create a lambda function to return mass of the object Earth object
