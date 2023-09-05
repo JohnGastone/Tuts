@@ -12,11 +12,15 @@ class Vehicle:   # Super class
     def Move(self):
         print("A moving vehicle")
 
+    def method(self):
+        print("Just a method")
+
 # Defining sub classes
 
 
 class Car(Vehicle):  # Sub class / Inheriting class
-    print("This is car")
+    def move(self):
+        print("Gari inayoendeshwa")
 
 
 class Boat(Vehicle):  # Sub class / Inheriting class
@@ -24,9 +28,8 @@ class Boat(Vehicle):  # Sub class / Inheriting class
         print("A sailing boat")
 
 
-class Plane(Vehicle):  # Sub class / Inheriting class
-    def move(self):
-        print("A flying plane")
+class Plane(Boat):  # Sub class / Inheriting class
+    pass
 
 
 # Creating Objects
@@ -44,4 +47,4 @@ for x in (fuso, mvDodoma, airTanzania):
     elif x is airTanzania:
         x.move()
     else:
-        x.Move()
+        x.move()
