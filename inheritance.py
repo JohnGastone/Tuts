@@ -32,7 +32,7 @@ Baba = Parent(name="Mshua Masta", age=45, religion="Budha")
 
 class Child(Parent):
     def __init__(self, name, age, religion):
-        super().__init__(self, name, age, religion)
+        super().__init__(name, age, religion)
     # print('This is the first child of the above parent')
 
 
