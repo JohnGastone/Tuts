@@ -18,10 +18,15 @@ class Parent:
         print('''This is the possession of this Parent, 
               all of its children will inherit them''')
 
+    def profile(self):
+        print("Her name is " + self.name)
+        print("Her age is " + str(self.age))
+        print("Her religion is " + self.religion)
+
 
 Baba = Parent(name="Mshua Masta", age=45, religion="Budha")
 
-Baba.possessions()
+# Baba.possessions()
 # Creating a Child Class : This is just a normal class creation
 
 
@@ -30,4 +35,4 @@ class Child(Parent):
 
 
 mtoto = Child("Festi boni", 20, "Hindu")
-mtoto.possessions()
+mtoto.profile()
