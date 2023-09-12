@@ -7,7 +7,13 @@
 # Example 1:
 myCollection = ("Yaya", "Kolo", "Toure")  # Colection
 
-# myIterator = iter(myCollection)  # Iterator object
+myIterator = iter(myCollection)  # Iterator object
 
-for myIterator in myCollection:
-    print(myIterator)
+print(next(myIterator))
+
+print(next(myIterator))
+
+print(next(myIterator))
+
+# for myIterator in myCollection:
+#     print(myIterator)
