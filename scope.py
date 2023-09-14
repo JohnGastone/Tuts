@@ -1,3 +1,5 @@
+import iterator
+
 # Scope determines the extent of usage of some entities in a file.
 
 # Two kinds of Scope do exist
@@ -21,5 +23,4 @@ def nyumbani():
     print(time)
 
 
-kazi()
-print(n1)
+print(iterator.myCollection)
