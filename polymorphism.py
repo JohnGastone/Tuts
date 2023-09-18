@@ -39,12 +39,18 @@ airTanzania = Plane("Boeing 22", "Fly Emirates")
 
 
 # Method calling
-for x in (fuso, mvDodoma, airTanzania):
-    print(x.brand)
-    print(x.model)
-    if x is mvDodoma:
-        x.move()
-    elif x is airTanzania:
-        x.move()
-    else:
+# for x in (fuso, mvDodoma, airTanzania):
+#     print(x.brand)
+#     print(x.model)
+#     if x is mvDodoma:
+#         x.move()
+#     elif x is airTanzania:
+#         x.move()
+#     else:
+#         x.move()
+
+if __name__ == "__main__":
+    for x in (fuso, mvDodoma, airTanzania):
+        print(x.brand)
+        print(x.model)
         x.move()

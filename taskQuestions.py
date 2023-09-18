@@ -1,3 +1,5 @@
+from polymorphism import Vehicle, Car
+
 '''
 Question 1:
 Write a Python program to print the numbers from 1 to 10.
@@ -30,3 +32,18 @@ Question 10:
 Write a Python program that prints a multiplication table for a given number up to a specified range.
     
 '''
+
+
+class Plough(Vehicle):
+    print("This is a Plough")
+
+
+class Hammer(Car):
+    print("Hello Hammer")
+
+
+katapila = Plough("Plough", "Toyota")
+
+katapila.Move()
+
+print(katapila.brand)

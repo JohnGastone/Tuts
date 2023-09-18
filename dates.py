@@ -6,7 +6,6 @@
 
 import datetime
 
-
 leo = datetime.datetime.now()
 
 print(leo)
@@ -34,7 +33,7 @@ print(tarehe_yetu.hour)
 
 siku = datetime.datetime(2012, 12, 29, 17, 10, 6)
 
-print(siku.str('%A:%d:%B:%Y'))
+# print(siku.str('%A:%d:%B:%Y'))
 
 # String parse time - The strptime function is typically used in programming languages, such as Python,
 # to parse (convert) a string representing a date
@@ -47,16 +46,16 @@ date_string = "2023-09-14 15:30:00"
 format_code = "%Y-%m-%d %H:%M:%S"
 
 # Use strptime to parse the string into a datetime object
-parsed_datetime = datetime.strptime(date_string, format_code)
+kitu = datetime.strptime(date_string, format_code)
 
 # Now you can work with the parsed datetime object
-print("Parsed Datetime:", parsed_datetime)
-print("Year:", parsed_datetime.year)
-print("Month:", parsed_datetime.month)
-print("Day:", parsed_datetime.day)
-print("Hour:", parsed_datetime.hour)
-print("Minute:", parsed_datetime.minute)
-print("Second:", parsed_datetime.second)
+print("Parsed Datetime:", kitu)
+print("Year:", kitu.year)
+print("Month:", kitu.month)
+print("Day:", kitu.day)
+print("Hour:", kitu.hour)
+print("Minute:", kitu.minute)
+print("Second:", kitu.second)
 
 # Keywords
 
