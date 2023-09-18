@@ -53,4 +53,9 @@ if __name__ == "__main__":
     for x in (fuso, mvDodoma, airTanzania):
         print(x.brand)
         print(x.model)
-        x.move()
+        if x is mvDodoma:
+            x.move()
+        elif x is airTanzania:
+            x.move()
+        else:
+            x.move()
