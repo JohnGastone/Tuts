@@ -1,0 +1,27 @@
+{
+    "name": "John",
+    "age": 17,
+    "city": "Carlifonia",
+    "country": {
+        "1st": "Netherlands",
+        "2nd": "Tanzania"
+    },
+    "hobby": "Football",
+    "wife": {
+        "name": "Alice",
+        "age": 28,
+        "city": "Los Angeles",
+        "email": "alice@example.com",
+        "is_student": "true",
+        "hobbies": [
+            "reading",
+            "painting",
+            "traveling"
+        ],
+        "address": {
+            "street": "123 Main Street",
+            "city": "Los Angeles",
+            "zip_code": "90001"
+        }
+    }
+}
