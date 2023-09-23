@@ -19,6 +19,19 @@ Java : maven package manager
 1. Pandas.
 2. Matplotlib. - Plotting functions
 3. Scipy - Scientific computations i.e Physics
-4. PyPlot - plotting graphs
+4. PyPlot - plotting graphs                      h = yy - deprecated, h_ == e - upgraded
+
+'''
+
+
+# Functions of Package managers
+
+'''
+1. Package Installation:
+2. Dependency Resolution: 
+3. Version management
+4. Upgrade and Downgrade
+5. Unstallation
+6. Search and Discovery
 
 '''
