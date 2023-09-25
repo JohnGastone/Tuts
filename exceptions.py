@@ -26,30 +26,30 @@ except Exception as e:
 
 
 # # Ex 2
-# def divide(a, b):
-#     try:
-#         result = a / b
-#     except ZeroDivisionError:
-#         result = "Error: Division by zero"
-#         print("This runs whenever an exception is raised ")
-#     return result
+def divide(a, b):
+    try:
+        result = a / b
+    except ZeroDivisionError:
+        result = "Error: Division by zero"
+        print("This runs whenever an exception is raised ")
+    return result
 
 
-# try:
-#     numerator = 10
-#     denominator = 0
-#     result = divide(numerator, denominator)
-#     print(f"Result: {result}")
-# except Exception as e:
-#     print(f"An exception occurred: {e}")
-# finally:
-#     print("Execution complete.")
+try:
+    numerator = 10
+    denominator = 0
+    result = divide(numerator, denominator)
+    print(f"Result: {result}")
+except Exception as e:
+    print(f"An exception occurred: {e}")
+finally:
+    print("Execution complete.")
 
 
 # Ex 3
 
 try:
-    file = open("non_existent.txt", "r")
+    file = open("r", "r")
     content = file.read()
     file.close
 except FileNotFoundError as e:
