@@ -18,7 +18,7 @@
 
 import os
 # Declare the file name
-barua = "barua.go"
+barua = "barua.pdf"
 
 # Create the file barua.txt
 
