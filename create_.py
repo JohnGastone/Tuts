@@ -43,4 +43,4 @@ else:
 
 
 # Deleting a folder
-os.rmdir("folda")
+# os.rmdir("folda")
