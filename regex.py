@@ -64,11 +64,22 @@ else:
 
 # Quantifiers
 
-text = "aaaabbbbcccc"
-pattern = "a{2,3}"  # Matches "aaa" or "aa"
-matchey = re.findall(pattern, text)
+# text = "aaaabbbbcccc"
+# pattern = "a{2,3}"  # Matches "aaa" or "aa"
+# matchey = re.findall(pattern, text)
 
-if matchey:
-    print("There are : " + str(matchey.group) + " matches")
+# if matchey:
+#     print("There are : " + str(matchey.group) + " matches")
+# else:
+#     print("There are no matches ")
+
+
+# ALternation
+text = "apple banana cherry"
+pattern = "apple|banana"  # Matches "apple" or "banana"
+matches = re.search(pattern, text)
+
+if matches:
+    print("There are : " + str(matches.group) + " matches")
 else:
     print("There are no matches ")
